@@ -1,0 +1,333 @@
+ 
+EXP 1: GIT
+
+- distributed version control system 
+functions:
+- version control
+- branching and merging
+- collaboration
+- backup n restore
+
+advantages:
+- fast n efficient
+- allows offline work
+- support non-linear dev (using brachnes n merges)
+- maintains history/logs
+
+GitHub:
+used to host git repo online
+provides collaboration , code review , issue tracking, proj mgm
+
+functions:
+- repo hosting
+- collab tools ( pull rep , cloning , issue tracking)
+- code review
+- CI/CD integration 
+- proj mgm
+
+Adv:
+- easy sharing of code
+- open source collab
+- GitHub action(automation)
+- easier documentation(readme, wikis)
+- integration w vscode, slack
+- needs internet
+
+
+
+EXP2: FLASK
+micro web framework written in python.
+used to build web app, apis , microservices
+
+core features:
+- routing (map urls to python function)
+- templating(use in built tools to generate html pages)
+- http methods (used for page response)
+- request n response handling(formdata, cookies, metadata)
+- session mgm(track cookies bw requests)
+
+functions:
+- restful api (json based api for apps)
+- e-commerce (store frontent, UI/UX)
+- iot and automation interfaces(web interfaces for iot)
+- ML model deployement(using api, ci/cd)
+
+adv:
+- simple , lightweight
+- easy to understand and run 
+- flexible ]
+- scalable 
+- modular design 
+- easier debugging
+- pythonic syntax
+- secure
+
+
+
+
+
+EXP 3: selenium
+
+ 
+- Jason huggins - 2004
+- open source , beg friendly 
+- automated testing
+- major lang
+- major browser
+function 
+ - open a web app
+- fills text in form
+- across diff browser
+- reg testing
+- smoke n sanity testing
+- integrated with Appium for mob testing
+- multipli languages
+
+advantages:
+- free 
+- cross - platfrom 
+- supp multiple language
+- reduces manual work 
+- can be integrated with other tools
+- flexible and scalability
+- fast exec
+- automation frameworks
+- activaley maintained 
+- supports headless browser testing
+
+
+
+
+EXP 4: Gradle:
+
+- powerful, build automation tool
+- used for initializing proj structure with dependency mgm , packages , etc
+- used primarily for java kotlin groovy and android apps
+- compiling , packaging , running and deploying web apps
+
+function:
+- dependency mgm (downloading libraries)
+- build automation
+- CI/CD support with Jenkins , GitHub, etc
+- block by block building (incremental builds)
+- plugin (supports plugin for java , kotlin , groovy)
+
+advantages:
+- high performance
+- flexible and extensible
+- rich plugin ecosystem
+- incremental compilation 
+- perfect for ci/cd
+- dependency mgm
+- gradle wrapper ( ensure same versioning across the team)
+
+
+
+EXP 5:
+- testing and monitoring projects
+- developer security platform - designed to find n fix vulnerabilities in a app dependencies , containers , ifac
+- open source models are vulnerable to attacks in that scenaries snyk helps to find n fix vulnerabilities automatically
+
+functions:
+- vulnerability scanning 
+- code sec
+- container sec
+- iac sec
+- open source sec
+- automated fixes
+- dependencies graph ( shows vuln are introduced due to packages)
+- ci/cd integration 
+
+adv:
+- wide supported ecosystem(java, js , python , .net , ruby)
+- user friendly interface for enchanced security and vuln mgm and analysis
+- protection of data
+- dev friendly
+- lightweight , fast 
+- deep and detailed scans
+- security as code
+- policy mgm 
+- vuln database
+
+
+EXP 6: Docker:
+
+- contanerizartion platform used to package projects , application into containers.
+- containers can run on any system which has docker (platform independent)
+
+what is container:
+- lightweight standalone exec package which holds dependencies , requirements, packages , config and code
+- they are isolated from each other 
+- like a vm but faster and efficient
+
+components:
+- docker-engine: runtime that build and manages containers
+- docker- image: snapshot of the application 
+- dockerfile: script to define how to build image
+- dockercontainer: running instance of docker image
+
+use-case:
+- testing 
+- ci/cd
+- microservies 
+- package distribution
+- cloud deployement
+
+adv:
+- consistency across any platform
+- fast start up time
+- lightweight, portalbel , scalable , flexible , secure
+- ci/cd integration 
+
+
+
+EXP 7: Jenkins:
+
+- open source automation server 
+- used to automate part of software dev process ( building , testing, deploying)
+- one of the most popular tools for ci/cd integration 
+
+function:
+- ci 
+- cd 
+- automated builds 
+- automated testing
+- version control integration
+- artifact mgm( integrated w tools like maven , gradle)
+- plugin support(1800+ plugins)
+- extensible
+
+
+architecture:
+- master: manages job scheduling and UI , assigns work to agents
+- agents: exec task assigned to them, can be on same of diff machine
+- plugins: extend functions 
+
+adv: 
+- free & open source
+- highly extensible
+- cross platoform support ( any os)
+- easy integration 
+- automates everything
+- scalable
+- notification service
+
+
+
+EXP 8: kubectl and minikube
+
+Kubernetes:
+abbreviation: k8s
+- open source , container orchestration platform 
+- automates deployement , scaling & mgm
+- dev by google 
+- runs containers
+- application mgm and distribution 
+- high availability , load balancing
+
+functions:
+- orchestration 
+- self healing (restarts failed containers)
+- scaling 
+- rolling updates and rollbacks
+- resource monitoring
+- extensibility (addons, plugin)
+
+adv:
+- high availability
+- load balancing
+- auto scaling 
+- optimized resource usage
+- secure
+- integration 
+
+
+minikube:
+
+- lightweight , local Kubernetes env
+- runs containers on local machine
+- for dev and testing
+
+functions:
+- local Kubernetes cluster
+- supports addons
+-live code reloading 
+- testing & debugging
+- quick setup
+
+
+adv: 
+- local dev
+- addons
+- lightweight and fast
+- cross platfrom 
+
+
+EXP 9: Ansible:
+
+- open source automations tool 
+- config mgm , task automation , dependency mgm
+- orchestration of multimode system
+
+basic components:
+- inventory: list of hosts
+- modules: reusable units of work
+- playbooks: yaml file desc automation tasks
+- roles: organizes playbooks
+
+functions:
+- config mgm
+- task automation 
+- package mgm
+- appln deployement
+
+adv:
+- agentless(no software on end system)
+- simple language
+- extensible modules
+- fast setup 
+- cross platfrom 
+- ci/cd
+- cloud support
+
+EXP 10: Maven
+
+- build automation and project mgm used for java projects
+- simplifies build , testing and deployement using automated tasks
+- pom.xml(project object model) contains metadata, dependencies, plugins , build config , etc
+
+functions:
+- build mgm
+- dependency mgm
+- project lifecycle mgm
+- test integration 
+- plugin integration
+
+lifecycle:
+mvn clean: removes target objects like jar files , compiled files , war files , temp files , logs
+mvn validate: check proj structure and validate it 
+mvn test: runs unit test
+mvn compile : compiles source code
+mvn package: packages compiled code into jar/war file
+
+adv:
+- standardization(provides uniform proj structure & lifecycle)
+- easy integration 
+- time saving 
+- plugins
+- testing support 
+- automated dependency mgm 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

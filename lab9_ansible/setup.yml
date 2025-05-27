@@ -1,0 +1,13 @@
+---
+- name: Basic Server Setup
+  hosts: local
+  become: yes
+  tasks:
+    - name: Update apt Cache
+      apt:
+        update_cache: yes
+
+    - name: Install Curl
+      apt:
+        name: curl
+        state: present
